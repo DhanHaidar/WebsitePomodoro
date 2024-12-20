@@ -271,7 +271,7 @@ const loadTasks = async () => {
            /// // PENANGANAN SPOTIFY PLAYLIST//////
             document.addEventListener('DOMContentLoaded', () => {
                 const clientId = '027bdd76e2494d0984f3b9ce1e34715f'; // Masukkan Client ID Spotify Anda
-                const redirectUri = 'http://127.0.0.1/pmdroalpa/#access_token=BQC2B0n9c5Wu8bGe3C8QboOTIFluMNT5JZ9_w6O8IgW4pGR5tJhiyR40h6M1BItyFqGa3xrYr1-PSQLaklCwzQNQ2P5UNZQqkOGSWX5dIWKwBP_5vOtPeNwfVTQWpD2Z96GArzD1B6KviqmapO7ElrtBv9-8Z_zYymkefSW-jae_0Z0YW5z5R6rIrHr0lWuom_6ZfBHiYhCN4W5grK_TcpQ5iUpW56DvQNk&token_type=Bearer&expires_in=3600'; // Masukkan Redirect URI Anda
+                const redirectUri = 'https://dhanhaidar.github.io/WebsitePomodoro/'; // Masukkan Redirect URI Anda
                 const scopes = 'streaming user-read-email user-read-private';
             
                 let accessToken = null;
